@@ -2,24 +2,23 @@ package Exp3;
 
 import java.util.*;
 
-public class Employee {
+public class ShapeClass {
 
     String name, address, job_title;
     float salary, bonus;
 
     void data() {
-        try (Scanner sc = new Scanner(System.in)) {
-            System.out.println("Enter name:");
-            name = sc.nextLine();
-            System.out.println("Enter address:");
-            address = sc.nextLine();
-            System.out.println("Enter Job Title:");
-            job_title = sc.nextLine();
-            System.out.println("Enter salary:");
-            salary = sc.nextFloat();
-            System.out.println("Enter bonus:");
-            bonus = sc.nextFloat();
-        }
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter name:");
+        name = sc.nextLine();
+        System.out.println("Enter address:");
+        address = sc.nextLine();
+        System.out.println("Enter Job Title:");
+        job_title = sc.nextLine();
+        System.out.println("Enter salary:");
+        salary = sc.nextFloat();
+        System.out.println("Enter bonus:");
+        bonus = sc.nextFloat();
     }
 }
 
