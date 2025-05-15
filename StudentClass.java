@@ -1,5 +1,3 @@
-package Exp3;
-
 class Student {
     protected int rollNo;
 

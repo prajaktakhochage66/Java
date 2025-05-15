@@ -1,4 +1,3 @@
-
 import java.awt.event.*;
 import javax.swing.*;
 
@@ -65,7 +64,8 @@ public class StationaryPurchaseSystem extends JFrame implements ActionListener {
             JOptionPane.showMessageDialog(this, details.toString(), "Message", JOptionPane.INFORMATION_MESSAGE);
             JOptionPane.showMessageDialog(this, "Successfully Ordered.", "Alert", JOptionPane.WARNING_MESSAGE);
         } else {
-            JOptionPane.showMessageDialog(this, "Please select at least one item.", "Alert", JOptionPane.WARNING_MESSAGE);
+            JOptionPane.showMessageDialog(this, "Please select at least one item.", "Alert",
+                    JOptionPane.WARNING_MESSAGE);
         }
     }
 

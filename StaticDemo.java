@@ -12,11 +12,9 @@ class StaticDemo {
     static void displayCount() {
         System.out.println("Count: " + count);
     }
-    
+
     public static void main(String[] args) {
         System.out.println("Main method executed!");
-
-        // Accessing static method without creating an object
         StaticDemo.displayCount();
     }
 }

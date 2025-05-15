@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class StudentResultApp {
 
     // a. Student class
@@ -39,6 +38,7 @@ public class StudentResultApp {
         public static int getsMarks() {
             return sMarks;
         }
+
         int sMarks = 20; // default sports marks
 
         void set(); // sets sports marks (used in Result)
@@ -50,7 +50,7 @@ public class StudentResultApp {
 
         @Override
         public void set() {
-            
+
             this.sportsMarks = sMarks;
         }
 
@@ -69,22 +69,22 @@ public class StudentResultApp {
     public static void main(String[] args) {
         try (Scanner scanner = new Scanner(System.in)) {
             Result result = new Result();
-            
+
             // Get roll number
             System.out.print("Enter Roll Number: ");
             int rollNo = scanner.nextInt();
             result.setRollNo(rollNo);
-            
+
             // Get subject marks
             System.out.print("Enter marks for Subject 1: ");
             int sub1 = scanner.nextInt();
             System.out.print("Enter marks for Subject 2: ");
             int sub2 = scanner.nextInt();
             result.setMarks(sub1, sub2);
-            
+
             // Set sports marks
             result.set();
-            
+
             // Display result
             result.displayResult();
         }

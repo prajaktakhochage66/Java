@@ -1,8 +1,8 @@
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import javax.swing.*;
 
-public class WordCountApp1 {
+public class WordCountApp {
     public static void main(String[] args) {
         // Create frame
         JFrame frame = new JFrame("Word and Character Count");

@@ -11,7 +11,7 @@ public class BackGroundColorChanger {
         frame.setLayout(new FlowLayout());
 
         // Create a JComboBox with color options
-        String[] colors = {"Red", "Green", "Blue", "Yellow", "White", "Black"};
+        String[] colors = { "Red", "Green", "Blue", "Yellow", "White", "Black" };
         JComboBox<String> colorComboBox = new JComboBox<>(colors);
         frame.add(colorComboBox);
 
